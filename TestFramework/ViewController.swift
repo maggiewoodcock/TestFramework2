@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import AGSysMathematicsFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let Farenheit = Temperature.CelsiusToFahrenheit(Celsius: 20)
+        print("Farenheit: \(Farenheit)")
+        
+        
     }
 
 

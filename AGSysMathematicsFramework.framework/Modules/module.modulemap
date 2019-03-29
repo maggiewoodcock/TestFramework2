@@ -1,0 +1,11 @@
+framework module AGSysMathematicsFramework {
+  umbrella header "AGSysMathematicsFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AGSysMathematicsFramework.Swift {
+    header "AGSysMathematicsFramework-Swift.h"
+    requires objc
+}
